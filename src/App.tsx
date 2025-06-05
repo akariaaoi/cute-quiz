@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 // 題目資料
 const questions = [
   {
-    question: "你在朋友眼中是怎樣的人？",
+    question: "1. 你在朋友眼中是怎樣的人？",
     options: [
       { text: "獨立冷靜", type: "cat" },       // 🐱
       { text: "熱情忠誠", type: "dog" },       // 🐶
@@ -13,7 +13,7 @@ const questions = [
     ],
   },
   {
-    question: "你週末最喜歡做什麼？",
+    question: "2. 你週末最喜歡做什麼？",
     options: [
       { text: "冒險探索新地方", type: "fox" }, // 🦊
       { text: "和朋友出去玩", type: "dog" },    // 🐶
@@ -22,7 +22,7 @@ const questions = [
     ],
   },
   {
-    question: "你面對壓力時的反應是？",
+    question: "3. 你面對壓力時的反應是？",
     options: [
       { text: "用行動轉移注意力", type: "fox" }, // 🦊
       { text: "和朋友聊天紓壓", type: "dog" },   // 🐶
@@ -31,7 +31,7 @@ const questions = [
     ],
   },
   {
-    question: "你最重視什麼？",
+    question: "4. 你最重視什麼？",
     options: [
       { text: "情感與理解", type: "rabbit" },     // 🐰
       { text: "自由與空間", type: "cat" },        // 🐱
@@ -40,7 +40,7 @@ const questions = [
     ],
   },
   {
-    question: "你最向往哪種生活方式？",
+    question: "5. 你最向往哪種生活方式？",
     options: [
       { text: "新奇多變、充滿挑戰", type: "fox" },     // 🦊
       { text: "安靜獨處、自我成長", type: "cat" },      // 🐱

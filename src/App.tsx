@@ -40,7 +40,7 @@ const questions = [
     ],
   },
   {
-    question: "5. 你最向往哪種生活方式？",
+    question: "5. 你最嚮往哪種生活方式？",
     options: [
       { text: "新奇多變、充滿挑戰", type: "fox" },     // 🦊
       { text: "安靜獨處、自我成長", type: "cat" },      // 🐱

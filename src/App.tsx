@@ -6,40 +6,51 @@ const questions = [
   {
     question: "你在朋友眼中是怎樣的人？",
     options: [
-      { text: "獨立冷靜", type: "cat" },
-      { text: "熱情忠誠", type: "dog" },
-      { text: "溫柔敏感", type: "rabbit" },
-      { text: "害羞內向", type: "hedgehog" },
+      { text: "獨立冷靜", type: "cat" },       // 🐱
+      { text: "熱情忠誠", type: "dog" },       // 🐶
+      { text: "溫柔敏感", type: "rabbit" },    // 🐰
+      { text: "謹慎安靜", type: "hedgehog" },  // 🦔
     ],
   },
   {
     question: "你週末最喜歡做什麼？",
     options: [
-      { text: "獨自看書或追劇", type: "cat" },
-      { text: "和朋友出去玩", type: "dog" },
-      { text: "冒險旅行", type: "fox" },
-      { text: "待在家創作或寫日記", type: "rabbit" },
+      { text: "冒險探索新地方", type: "fox" }, // 🦊
+      { text: "和朋友出去玩", type: "dog" },    // 🐶
+      { text: "在家閱讀或看電影", type: "cat" }, // 🐱
+      { text: "靜靜創作或寫日記", type: "rabbit" }, // 🐰
     ],
   },
   {
     question: "你面對壓力時的反應是？",
     options: [
-      { text: "冷靜處理", type: "fox" },
-      { text: "和朋友聊天紓壓", type: "dog" },
-      { text: "寫下來釐清思緒", type: "rabbit" },
-      { text: "自己默默忍受", type: "cat" },
+      { text: "用行動轉移注意力", type: "fox" }, // 🦊
+      { text: "和朋友聊天紓壓", type: "dog" },   // 🐶
+      { text: "自己默默消化情緒", type: "hedgehog" }, // 🦔
+      { text: "寫下感受理清思緒", type: "rabbit" }, // 🐰
     ],
   },
   {
     question: "你最重視什麼？",
     options: [
-      { text: "自由與空間", type: "cat" },
-      { text: "友情與陪伴", type: "dog" },
-      { text: "情感與理解", type: "rabbit" },
-      { text: "安全與界線", type: "hedgehog" },
+      { text: "情感與理解", type: "rabbit" },     // 🐰
+      { text: "自由與空間", type: "cat" },        // 🐱
+      { text: "友情與陪伴", type: "dog" },        // 🐶
+      { text: "安全感與界線", type: "hedgehog" }, // 🦔
+    ],
+  },
+  {
+    question: "你最向往哪種生活方式？",
+    options: [
+      { text: "新奇多變、充滿挑戰", type: "fox" },     // 🦊
+      { text: "安靜獨處、自我成長", type: "cat" },      // 🐱
+      { text: "溫馨陪伴、穩定關係", type: "dog" },      // 🐶
+      { text: "熟悉環境中安心創作", type: "hedgehog" }, // 🦔
     ],
   },
 ];
+
+
 
 // 結果資料
 const results: Record<
